@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Commentaires</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>MÉTÉO IFT1144</h1>
+      </header>
+      <nav>
+        <table class="tableau-1">
+          <tr>
+            <th class="header-1"><a class="link1" href="tp2.html">Accueil</a></th>
+            <th class="header-1"><a class="link1" href="previsions.html">Pr&eacute;visions</a></th>
+            <th class="header-4">Commentaires</th>
+          </tr>
+        </table>
+        
+      </nav>
+      <main>
+        <p>Envoyez nous vos commentaires</p>
+          <form method="post" action="http://www.iro.umontreal.ca/~pilona/cgi-bin/pilona.cgi">
+            <table class="tableau-4">
+              <tr>
+                <td>
+                  <label for="nom">Nom </label> 
+                </td>
+                <td class="form">
+                  <input type="text" id="nom" name="nom" required><br>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="adresse">Adresse </label>
+                </td>
+                <td class="form">
+                  <input type="text" id="adresse" name="adresse">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="commentaire">Commentaire </label>
+                </td>
+                <td class="form">
+                  <textarea id="commentaire" name="commentaire" rows="5" cols="60"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <input type="submit" value="Envoyer">
+                  <input type="reset" value="Effacer">
+                </td>
+              </tr>
+            </table>
+          </form>
+      </main>
+      <footer>
+        <table class="tableau-3">
+          <tr>
+            <td class="footer" rowspan="3"><a href="https://validator.w3.org/nu/?doc=https://www-ens.iro.umontreal.ca/~sakotosa/ift1144/tp2/pages/commentaires.html">
+              <img class="img-2" alt="HTML Validator" src="../images/valid_html_blue.png" width="80" height="15"></a>
+            </td>
+            <td>Sandeep Sakoto</td>
+            <td class="footer" rowspan="3"><a href="https://jigsaw.w3.org/css-validator/validator?uri=https://www-ens.iro.umontreal.ca/~sakotosa/ift1144/tp2/css/style.css">
+              <img class="img-2" alt="CSS Validator" src="../images/valid_css_blue.png" width="80" height="15"></a>
+            </td>
+          </tr>
+          <tr>
+            <td>Romain Boiret</td>
+          </tr>
+          <tr>
+            <td><a href="https://www-ens.iro.umontreal.ca/~sakotosa/ift1144/tp2/pages/tp2.html">https://www-ens.iro.umontreal.ca/~sakotosa/ift1144/tp2/pages/tp2.html</a></td>
+          </tr>
+        </table>
+      </footer>
+    </div>
+  </body>
+</html>

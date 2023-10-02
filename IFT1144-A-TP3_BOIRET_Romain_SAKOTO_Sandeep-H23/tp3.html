@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang=fr>
+    <head>
+        <meta charset="UTF-8">
+        <title>tp3</title>
+        <link rel="stylesheet" type="text/css" href="style_tp3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <script src="js_tp3.js"></script>
+        
+        <h1>Travail pratique #3</h1>
+        <h2>Identification</h2>
+        <p>Ce travail a été fait par Sandeep Sakoto, matricule : 20249939 </p>
+        <p>Ce travail a été fait par Romain Boiret, matricule : 20244482  </p>
+        
+        <h2>Partie 1 : Formulaire de conversion (3 pts)</h2>
+        <p>
+            <label>Valeur :</label>
+            <input type="text" id="valeur">
+            <span id ="resultat">Résultat ici:</span><br>
+            <button onclick="convertirPoucesVersCm()">Pouces vers cm</button>
+            <button onclick="convertirCmVersPouces()">Cm vers pouces</button>
+            <button onclick="convertirCelsiusVersFahrenheit()">Celsius vers Fahrenheit</button>
+            <button onclick="convertirFahrenheitVersCelsius()">Fahrenheit vers Celsius</button>
+        </p>
+        
+        <h2>Partie 2 : Affichage dans la page Web (contr&ocirc;l&eacute; par JavaScript - 3 pts)</h2>
+        <p>Nom : <input type="text" id="nom"></p>
+	    <p>Niveau (1 à 6): <input type="text" id="niveau"> <button onclick="afficherMessage()">Afficher partie 2</button></p>
+	    <div id="affichagep">Affichage ici</div> <br>
+        
+        <div class="Partie-3">
+            <h2>Partie 3 : Affichage du menu, animation des images et calcul du co&ucirc;t (6 pts)</h2>
+            
+            <div id="menu">
+                <ul>
+                    <li class="choisir">Menu</li>
+                    <li>Entr&eacute;e
+                        <ul>
+                            <li>Escargot</li>
+                            <li>Salade verte</li>
+                            <li>Salade C&eacute;sar</li>
+                        </ul>
+                    </li>
+                    <li>Principal
+                        <ul>
+                            <li>Spaghetti</li>
+                            <li>Steak</li>
+                            <li>Pizza</li>
+                        </ul>
+                    </li>
+                    <li>Dessert
+                        <ul>
+                            <li>Cr&egrave;me glac&eacute;e</li>
+                            <li>Gateau</li>
+                            <li>Pouding</li>
+                        </ul>
+                    </li>
+                    <li>Boisson
+                        <ul>
+                            <li>Caf&eacute; / Th&eacute;</li>
+                            <li>Boisson gazeuse</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+            </div>
+            <div id ="affichage">
+                <table>
+                    <tr style="height: 45px;">
+                        <th colspan="4">Votre choix:</th>
+                    </tr>
+                    <tr>
+                        <td>Entr&eacute;e:</td>
+                        <td>Principal:</td>
+                        <td>Dessert:</td>
+                        <td>Boisson:</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="categorie" id="Entree">
+                                
+                                <img id="imgEntree" src="images/vide.jpg" alt="Image de l'entree"><br>
+                                <span id="prixEntree"></span>
+                            </p>
+                        </td>
+                        <td>
+                            <p class="categorie" id="Principal">
+                                
+                                <img id="imgPrincipal" src="images/vide.jpg" alt="Image du plat principal"><br>
+                                <span id="prixPrincipal"></span>
+                            </p>
+                        </td>
+                        <td>
+                            <p class="categorie" id="Dessert">
+                                 
+                                <img id="imgDessert" src="images/vide.jpg" alt="Image du dessert"><br>
+                                <span id="prixDessert"></span>
+                            </p>
+                        </td>
+                        <td>
+                            <p class="categorie" id="Boisson">
+                                
+                                <img id="imgBoisson" src="images/vide.jpg" alt="Image de la boisson"><br>
+                                <span id="prixBoisson"></span>
+                            </p> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="1" colspan="4"><button class="facture">Cliquez ici pour calculer la facture</button> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <span id="total"></span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>     
+    </body>
+</html>

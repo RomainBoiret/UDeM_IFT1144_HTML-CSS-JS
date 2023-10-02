@@ -1,0 +1,56 @@
+div.Partie-3 {
+    border: solid 2px;
+}
+
+#menu {
+    width: 20%;
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#affichage {
+    width: 75%;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+#affichage .categorie {
+    width: 24%;
+    display: inline-block;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#menu ul {
+    display: block;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #e5eecc;
+}
+
+#menu ul ul {
+    display: none;
+    margin-left: 20px;
+}
+
+.choisir {
+    background-color: #d5ccee;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+ text-align: left;
+ vertical-align: top;
+}
+
+button.facture {
+    width: 550px;
+    font-size:xx-large;
+    font-weight: bold;
+}
+

@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(153,187,255,255);
+  }
+h1 {
+  color: yellow;
+  text-align: left;
+}
+  
+  #container {
+    width: 920px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-image: url("../images/nuages_708.jpg");
+    padding: 5px;
+    text-align: left;
+    background-size: 100%;
+  }
+  
+  nav {
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  main {
+    padding: 10px;
+    background-color: white;
+  }
+  
+  footer {
+    background-color: rgba(135,206,250,255);
+    padding: 10px;
+    text-align: center;
+  }
+ 
+  table.tableau-1 {
+  width: 100%;
+  text-align: center;
+  border: 2px;
+  border-collapse: collapse;
+  margin: auto;
+  border-color: black;
+ }
+
+ th.header-2 {
+  border-bottom: 1px solid white;
+  background-color: #33CCCC;
+  border: 1px solid #33CCCC;
+  border-collapse: collapse;
+  border-right: 1px solid white;
+  width: 20%;
+ }
+  th.header-3 {
+    border-bottom: 1px solid white;
+    background-color: #33CCCC;
+    border: 1px solid #33CCCC;
+    border-collapse: collapse;
+    border-right: 1px solid white;
+    width: 20%;
+    border-left: 1px solid black;
+
+ }
+
+ th.header-1 {
+  border-color: yellow;
+  color: blue;
+  text-decoration: underline;
+
+ }
+
+ td.bloc-2 {
+  border: 1px solid black;
+  border-collapse: collapse;
+ }
+
+ table.tableau-2 {
+  width: 90%;
+  text-align: center;
+  border: 2px;
+  border-collapse: collapse;
+  margin: auto;
+  border-color: black;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+ }
+
+ table.tableau-3 {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+ }
+
+ td.footer {
+  width: 10%;
+  text-align: center;
+  vertical-align: top;
+  
+ }
+
+
+ ul {
+  list-style-type: none;
+  background-color: #e8e0e9;
+  padding-top: 5px;
+  padding-left: 50px;
+  margin-left: 20px;
+  width: 200px;
+}
+
+hr {
+  width: 30px;
+}
+
+.link2:link {
+  color: orange;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link2:visited {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.link2:hover {
+  color: hotpink;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link2:active {
+  color: red;
+  text-decoration: none;
+  background-color: white;
+  font-weight: bold;
+}
+
+.link1:link {
+  color: aqua;
+}
+
+.link1:visited {
+  color: blue;
+}
+
+
+.link1:hover {
+  color: black;
+}
+
+.link1:active {
+  color: gray;
+}
+
+table.tableau-4 {
+  text-align: left;
+  width: 100%;
+}
+
+td.form {
+  padding-left: 20px;
+  width: 80%;
+}
+
+td.blank {
+  color: white;
+}
+
+.link3:active {
+  color: red;
+  text-decoration: none;
+  background-color: white;
+}
+
+th.header-4 {
+  color: blue;
+}
+
+img.img-2 {
+  border: 0;
+}
